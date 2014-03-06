@@ -136,7 +136,7 @@ a:focus {
 }
 
 .melt-menu a.links {
-    padding: 10px 20px 10px;
+    padding: 8px 15px 8px 20px;
 	color:#b7b7b7;
 }
 .melt-menu a.links:hover {
@@ -161,6 +161,7 @@ a:focus {
   margin-left:0;
   margin-right:0;
   margin-top: 50px;
+  min-width:190px;
   background-color: #d5d5d5;
   font-size:12px;
   color:#474747;
@@ -170,6 +171,7 @@ a:focus {
 .callout-image {
 	border:2px solid #949494;
 	margin-bottom:10px;
+    min-width: 145px;
 	margin-top:-20px;
 }
 
@@ -647,7 +649,27 @@ margin-top:0;
 	.bg {
 	width: 100%;
 	margin:0 auto;
-}
+    }
+    .footer-logo {
+    text-align:center;
+    margin:0 auto;
+    }
+    .footer-melt, .footer-melt p {
+    text-align:center;
+    margin:0 auto;
+    }
+    .footer-links-bottom {
+    margin-top: 20px;
+    margin-bottom:20px;
+    }
+    .footer-first {
+    text-align:left;
+    margin-left:40px;
+    }
+    .footer-second {
+    text-align:left;
+    margin-left:85px;
+    }
 }
 
 @media(max-width:480px) {
@@ -667,10 +689,6 @@ margin-top:0;
 	min-width:320px;
 	border: 1px solid #d5d5d5;
 	}
-	.footer-melt {
-	text-align:center;
-	margin:0 auto;
-	}
 	.well-sm h3 {
 	font-size:14px;
 	}
@@ -683,23 +701,6 @@ margin-top:0;
 	}
 	.pull-down {
 	margin-top: 30px;
-	}
-	.footer-logo {
-	text-align:center;
-	margin:0 auto;
-	}
-	.footer-melt p
-	{
-	text-align:center;
-	margin:0 auto;
-	}
-	.footer-first {
-	text-align:left;
-	margin-left:40px;
-	}
-	.footer-second {
-	text-align:left;
-	margin-left:85px;
 	}
 }
 @media(max-width:340px) {
